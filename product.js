@@ -1,3 +1,3 @@
 function addToCart(productName) {
-    alert("Success! " + productName + " has been added to your shopping cart.");
+    alert("✅ Thank you for contacting StyleWear!\n\nYour message has been received successfully.\nOur customer support team will contact you soon via Email or WhatsApp.\n\nThis website under maintenance.");
 }
