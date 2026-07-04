@@ -6,6 +6,50 @@
     <link rel="stylesheet" href="product.css">
 </head>
 <body>
-    
+    <!-- Name: Md Asifur Rahman, ID: 2110384 -->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Our Products</h1>
+        <p>Explore our premium hardware and smart accessories.</p>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="https://picsum.photos/400/300?random=4" alt="Pro Laptop">
+                <h3>Developer Pro Laptop</h3>
+                <p>Built for heavy workloads. Features top-tier processing power ideal for running deep learning models and compiling software seamlessly.</p>
+                <button class="buy-btn" onclick="addToCart('Developer Pro Laptop')">Add to Cart</button>
+            </div>
+
+            <div class="grid-item">
+                <img src="https://picsum.photos/400/300?random=5" alt="Smart Watch">
+                <h3>Nova Smartwatch</h3>
+                <p>Track your health metrics with precision sensors. A sleek design that keeps you notified without constantly checking your phone.</p>
+                <button class="buy-btn" onclick="addToCart('Nova Smartwatch')">Add to Cart</button>
+            </div>
+
+            <div class="grid-item">
+                <img src="https://picsum.photos/400/300?random=6" alt="IoT Starter Kit">
+                <h3>Home Automation Kit</h3>
+                <p>Includes everything you need to automate your environment, complete with motion sensors, servo motors, and a programmable microcontroller.</p>
+                <button class="buy-btn" onclick="addToCart('Home Automation Kit')">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechNova. All rights reserved.</p>
+    </footer>
+
+    <script src="product.js"></script>
 </body>
 </html>
